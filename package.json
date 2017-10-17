@@ -1,0 +1,19 @@
+{
+  "name": "restifyexample",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:dougtq/restifyexample.git",
+  "author": "Douglas Alves <douglas.expalves@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "dependencies": {
+    "mongoose": "^4.12.3",
+    "mongoose-string-query": "^0.2.5",
+    "mongoose-timestamp": "^0.6.0",
+    "restify": "^6.2.0",
+    "restify-errors": "^5.0.0",
+    "restify-plugins": "^1.6.0"
+  }
+}
