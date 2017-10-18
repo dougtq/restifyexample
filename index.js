@@ -31,6 +31,8 @@ restful.listen(config.port, () => {
       config.port,
       config.env
     )
+
+    require('./src/routes')({ db, restful })
   })
   console.log('Servidor Restify: %s rodando em %s', restful.name, restful.url)
 })
