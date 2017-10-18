@@ -6,14 +6,20 @@
   "author": "Douglas Alves <douglas.expalves@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "node ./index.js"
+    "start": "node ./index.js",
+    "dev": "node_modules/.bin/nodemon index.js"
   },
   "dependencies": {
+    "dotenv": "^4.0.0",
+    "mongodb": "^2.2.33",
     "mongoose": "^4.12.3",
     "mongoose-string-query": "^0.2.5",
     "mongoose-timestamp": "^0.6.0",
     "restify": "^6.2.0",
     "restify-errors": "^5.0.0",
     "restify-plugins": "^1.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
   }
 }
